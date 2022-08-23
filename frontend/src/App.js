@@ -73,7 +73,7 @@ class App extends Component {
 
   searchBooks = (search) => {
     $.ajax({
-      url: '/books', //TODO: update request URL
+      url: '/books/search', //TODO: update request URL
       type: "POST",
       dataType: 'json',
       contentType: 'application/json',
